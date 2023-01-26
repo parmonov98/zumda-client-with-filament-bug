@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'admin.welcome' => 'Здравствуйте, Shef! Вы админ.',
+    'admin_keyboard_orders' => 'Заказы',
+    'admin_keyboard_statistics' => 'Статистика',
+    'admin_keyboard_mailing' => 'Рассылка',
+    'order_details' => "Новый заказ! \nID => #:order_id\nПользователь: :first_name\nТелефон: :phone\nАдрес: :shipping_address\n\nТовары: \n:text\nДоставка: :shipping_price сум.\n\nЖелания клиента: :message.\nСпособ оплаты: :payment_method\n",
+    'order_move_to_cook_button' => 'Принять',
+    'order_move_to_cook_button_activated' => '✅ Принять',
+    'order_move_to_driver_button' => 'Доставить',
+    'order_move_to_driver_button_activated' => '✅ Доставляется',
+    'order_move_to_driver_button_delivered' => '✅ Доставлень',
+    'order_move_to_completed_button' => 'Закончить',
+    'order_move_to_completed_button_activated' => '✅ Закончить',
+    'order_move_to_cancelled_button' => 'Отменить',
+    'order_move_to_cancelled_button_activated' => '✅ Отменен',
+    'order_move_to_driver_accepted_button' => 'Выбрать доставщика',
+    'order_move_to_driver_accepted_button_activated' => '✅ Доставщик выбран',
+    'order_update' => '🔄',
+    'order_was_not_changed' => "Заказ не был изменен!",
+    'order_updated' => 'Заказ обновлен!',
+    'order_passed_to_driver_text_callback' => 'Заказ передан к Доставщику',
+    'order_cook_informed' => 'Передан к повару',
+    'back_to_order_details' => 'Назад',
+    'daily_report' => "Заказы на сегодня:\nКоличество => :orders_qty\nСумма => :orders_sum сум.\nДоставка => :delivery_sum сум.\n",
+    'monthly_report' => "Заказы на текущий месяц:\nКоличество => :orders_qty\nСумма => :orders_sum сум.\nДоставка => :delivery_sum сум.\n",
+    'annual_report' => "Заказы на текущий год:\nКоличество => :orders_qty\nСумма => :orders_sum сум.\nДоставка => :delivery_sum сум.\n",
+    'admin_mailing_text' => "Отправьте что нужно рассылать: ",
+    'start_mailing' => "Рассылать",
+    'mailing_completed' => "Рассылка закончена!",
+    'invalid_mailing_content' => "Рассылка должен иметь фото."
+];
